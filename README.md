@@ -10,7 +10,7 @@ update the src paths below (banner.png, architecture.png, schema.png, dashboard.
 <h1 align="center">F1 Performance Analytics Platform</h1>
 
 <p align="center">
-  End-to-end Formula 1 analytics built with OpenF1, Airflow, Snowflake, dbt and Looker Studio.
+  End-to-end Formula 1 analytics built with OpenF1, Airflow, Snowflake, dbt and Plotly Dashboard.
 </p>
 
 ---
@@ -31,7 +31,7 @@ This project builds a complete **Formula 1 performance analytics platform** that
   - Tire degradation index
   - Rolling pace stability (std dev)
   - Driver/session summary metrics
-- 📊 **Looker Studio dashboard** with interactive filters (driver, date, session)
+- 📊 **Plotly Dashboard** with interactive filters (driver, date, session)
 
 ---
 
@@ -49,7 +49,7 @@ This project builds a complete **Formula 1 performance analytics platform** that
   - Daily real-time loads (latest completed session)
 - **Snowflake** – cloud data warehouse for all staged and modeled data
 - **dbt** – transformations, feature engineering, and mart creation
-- **Looker Studio** – visualization and reporting layer
+- **Plotly Dashboard** – visualization and reporting layer
 
 ---
 
@@ -120,5 +120,3 @@ These models feed directly into the dashboard for rich F1 analytics.
 - **Pace Strategy Breakdown** – donut chart illustrating time spent in different pace/strategy modes  
 
 
-```text 
-https://lookerstudio.google.com/reporting/4faa7e79-f8af-450b-9ac7-f9c3d0755488
